@@ -4,9 +4,11 @@
 @tailwind utilities;
 .App {
   text-align: center;
-  background-image: url('./backgroundimage.jpg');
-   background-size: cover;
-  background-repeat: no-repeat;
+  /* background-image: url('./backgroundimage.jpg');
+   */
+   /* background-size: cover;
+  background-repeat: no-repeat; */
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
   
 }
 
@@ -29,7 +31,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color:#282c34;
 }
 
 .App-link {
