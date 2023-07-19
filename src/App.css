@@ -3,10 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 .App {
-  text-align: center;
+  /* text-align: center;
   background-image: url('./backgroundimage.jpg');
    background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   
 }
 
