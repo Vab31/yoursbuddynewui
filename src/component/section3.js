@@ -21,11 +21,12 @@ export default function Section3() {
 
     <div className="text-slate-50" id="section3">
 
-      <div className="text-left lg:m-32 text-sm">KNOW MORE ABOUT US
+      <div className="text-left lg:m-32 text-sm ">KNOW MORE ABOUT US
+      <div className="border-t border-gray-300 w-96 mb-6"></div>
 
 
-        <p className='text-left text-7xl' ><img className='inline-flex bg-sky-500 rounded-full p-3 border-sky-300 border-spacing-5' src={arrow} />YoursBuddy at your Service</p>
-        <p className='text-cyan-300 text-7xl ml-4'>BUSINESS</p>
+        <p className='text-left text-5xl font-serif' ><img className='inline-flex bg-sky-500 rounded-full p-3 mr-3  border-sky-300 border-spacing-5' src={arrow} />Simply carry out these steps.</p>
+     
         <div className="flex flex-col items-center md:flex-row mt-3 mb-3">
           <div className="h-96 w-full md:w-1/2 bg-gradient-to-r from-blue-900 to-blue-700 flex items-center justify-center rounded-full">
             <img src={digiicon} className="max-h-full max-w-full rounded-full " alt="image of media agency" />

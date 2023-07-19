@@ -10,7 +10,7 @@ import About from './component/about';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App   bg-black">
            <Nav/>   
            <Section2/>
            <Section3/>

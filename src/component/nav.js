@@ -74,7 +74,8 @@ export default function Nav() {
     //     </div>
     //   </div>
     // </nav>
-    <nav className="flex flex-wrap items-center justify-between py-4 px-8 bg-gray-950 text-white">
+    // bg-gray-950
+    <nav className="flex flex-wrap items-center justify-between py-4 px-8 bg-black text-white">
     <div className="flex items-center mr-4">
       <img src="https://flowbite.com/docs/images/logo.svg" alt="YourBuddy Logo" className="h-8" />
       <span className="text-lg font-semibold ml-2">YourBuddy</span>
