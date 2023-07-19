@@ -49,8 +49,8 @@ export default function Section4() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center">
-  <div className="sec4 h-96 rounded-t-full w-screen rounded-b-full flex items-center justify-center bg-white">
+    <div className="flex flex-col items-center justify-center overflow-hidden">
+  <div className="sec4 h-96 rounded-t-full w-screen rounded-b-full flex items-center overflow-hidden justify-center bg-white">
        <p className="text-white font-bold text-7xl">Introducing Our Services</p>
        </div>
        <div className="max-w-500 p-3">
