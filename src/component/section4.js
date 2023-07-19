@@ -22,15 +22,6 @@ import { useState } from 'react';
 
 export default function Section4() {
   
-  // const [open, setOpen] = React.useState(false);
-
-  // const handleClickOpen = () => {
-  //   setOpen(true);
-  // };
-
-  // const handleClose = () => {
-  //   setOpen(false);
-  // };
   const [open, setOpen] = useState(null);
 
   const handleClickOpen = (index) => {
@@ -45,13 +36,9 @@ export default function Section4() {
   <div className="sec4 h-96 rounded-t-full w-screen rounded-b-full flex items-center justify-center bg-white">
        <p className="text-white font-bold text-7xl">Introducing Our Services</p>
        </div>
-       
-  
-      
-  
-   
-    <div className='flex m-7'>
-  <motion.div whileHover={{ scale: 1.2 }}>
+
+  <div className='flex m-7'>
+   <motion.div whileHover={{ scale: 1.2 }}>
     <Card className='m-5 p-4' sx={{ minWidth: 275 }}>
       <CardContent>
       <Typography sx={{ fontSize: 34 ,fontWeight:'bold' }} color="text.secondary" gutterBottom>
