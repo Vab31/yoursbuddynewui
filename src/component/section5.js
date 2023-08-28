@@ -1,45 +1,45 @@
-import React from 'react'
+import React from 'react';
+import AddIcon from '@mui/icons-material/Add';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import { motion } from "framer-motion";
+import '../font/style.css'
 
-export default function Section5() {
+const Footer = () => {
   return (
-    <footer className="bg-slate-900 text-slate-50 py-4 font-serif">
-    <div className="container mx-auto px-4">
-      <div className="flex flex-wrap justify-between">
-        <div className="w-full md:w-1/2">
-          <h5 className="text-white font-bold text-lg">YoursBuddy</h5>
-          <p className="text-blue-grey text-darken-1 mt-2">
-            An original idea. That can’t be too hard. The library must be full
-            of them.–Stephen Fry
-          </p>
-          <p className="text-blue-grey text-darken-1">
-            A library is the delivery room for the birth of ideas, –Norman Cousins
-          </p>
-        </div>
-        <div className="w-full md:w-1/2 mt-4 md:mt-0">
-          <h5 className="text-white font-bold text-lg">Links</h5>
-          <ul className="mt-2 flex flex-col">
-            <li className="mb-2">
-              <a className="text-blue hover:text-blue-dark transition-colors duration-300 ease-in-out" href="#!">Facebook</a>
-            </li>
-            <li className="mb-2">
-              <a className="text-blue hover:text-blue-dark transition-colors duration-300 ease-in-out" href="#!">Twitter</a>
-            </li>
-            <li className="mb-2">
-              <a className="text-blue hover:text-blue-dark transition-colors duration-300 ease-in-out" href="#!">Pinterest</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div className="bg-grey-darkest">
-      <div className="container mx-auto px-4 py-2 text-center text-sm text-slate-50">
-        © 2023- YoursBuddy
-      </div>
-    </div>
-  </footer>
+    <div className='text-slate-300'>
+    <div className="flex justify-between items-center">
+    
+    
+
+    {/* <motion.p
+  whileHover={{ scale: 1.2, }}
   
+>
+    <AddIcon style={{ fontSize: 100 }} className=" md:mr-52 md:mt-7 " />
+    </motion.p> */}
+    {/* <motion.div
+        style={{ scale: 1.5, rotate: 45 }}
+        className="md:mr-52 md:mt-7"
+      >
+        <AddIcon />
+      </motion.div> */}
+</div>
+  <div className='ml-4 text-center' style={{ fontFamily: 'Instagram Sans Bold' }}>
+  <p className='text-4xl   text-slate-300 font-bold' style={{ fontFamily: 'Instagram Sans Bold' }}>Yours Buddy</p>
+  <p className='mt-2'>Contact Us</p>
+  {/* <p>Gurgaon Haryana</p> */}
+  <p>singhvaibhav654@gmail.com</p>
+  <p  className='flex justify-center items-center'> 
+  <motion.p whileHover={{ scale: 1.2, }}> <a href='https://instagram.com/_yours_buddy__?igshid=MjEwN2IyYWYwYw=='> <InstagramIcon  className='m-3' style={{ fontSize: 50 }}/></a></motion.p>
+  <motion.p whileHover={{ scale: 1.2, }}> <a href='https://www.linkedin.com/in/yours-buddy-a6b176276'> <LinkedInIcon className='m-3' style={{ fontSize: 50 }}/> </a> </motion.p>
+  <motion.p whileHover={{ scale: 1.2, }}> <a href=''> <TwitterIcon className='m-3' style={{ fontSize: 50 }}/></a></motion.p> 
+  </p>
   
-  
-  
-  )
-}
+  </div>
+  </div>
+  );
+};
+
+export default Footer;

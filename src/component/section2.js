@@ -1,5 +1,6 @@
 import unleash from './unleash.gif';
 import { motion } from "framer-motion";
+import '../font/style.css'
 
 export default function Section2() {
   return (
@@ -11,11 +12,11 @@ export default function Section2() {
         backgroundRepeat: 'repeat',
       }}
     >
-      <div className='flex justify-center'>
+      <div className='flex justify-center heroimg' >
         <img src={unleash} alt="Your GIF" />
       </div>
 
-      <p className='text-2xl text-slate-300 font-serif md:ml-32 md:mr-32 items-center'>
+      <p className='text-2xl text-slate-300 font-serif md:ml-32 md:mr-32 items-center' style={{ fontFamily: 'Instagram Sans Regular' }}>
       Worked with 20 or more Clients and produced 100 or more projects that received millions of views:
       the process for creating content will be made simpler.
       We'll manage all of your content development; all you have to do is send us footage, sit back and relax.
@@ -23,13 +24,13 @@ export default function Section2() {
       <div className='flex justify-center mt-10'>
         <motion.div className='mr-5 mb-5' whileHover={{ scale: 1.2 }}>
           <a href="#section3" className='text-white no-underline'>
-            <button className=' bg-gray-950 p-9 rounded-full text-3xl'>Know More</button>
+            <button className=' bg-gray-950 p-3 rounded-full text-xl'>Know More</button>
           </a>
         </motion.div>
     
         <motion.div whileHover={{ scale: 1.2 }}>
           <a href='https://calendly.com/yoursbuddy/video-editing-1' className='text-white no-underline'>
-            <button className='bg-blue-600 p-9 rounded-full ml-2 text-3xl'>Talk to us</button>
+            <button className='bg-blue-600 p-3 rounded-full ml-2 text-xl'>Talk To us</button>
           </a>
         </motion.div>
       </div>
