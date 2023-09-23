@@ -102,7 +102,7 @@ useEffect(()=>{
 
 
     <>
-    <h1 className="text-white mb-12 text-center" style={{ fontFamily: 'Instagram Sans Bold' }}>Clients we have worked with</h1>
+    <h1 className="text-white mb-12 text-center m-2" style={{ fontFamily: 'Instagram Sans Bold' }}>Clients we have worked with</h1>
   
     <section className="text-slate-400 body-font">
       <div className="container px-5 py-24 mx-auto">

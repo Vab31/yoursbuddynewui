@@ -36,9 +36,9 @@ export default function Nav() {
     </a>
     <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
     <a href="/" className="text-slate-200 font-bold no-underline hover:text-slate-300 block py-2 px-4">Home</a>      
-    <a href="/" className="text-slate-200 font-bold no-underline hover:text-slate-300 block py-2 px-4">Services</a>      
+    <a href="/service" className="text-slate-200 font-bold no-underline hover:text-slate-300 block py-2 px-4">Services</a>      
     <a href="/review" className="text-slate-200 font-bold no-underline hover:text-slate-300 block py-2 px-4">Testimonial</a>      
-    <a href="/" className="text-slate-200 font-bold no-underline hover:text-slate-300 block py-2 px-4">About</a>      
+    <a href="/aboutus" className="text-slate-200 font-bold no-underline hover:text-slate-300 block py-2 px-4">About</a>      
     </nav>
     <div className="mt-4 lg:mt-0">
     <a href="https://calendly.com/yoursbuddy/video-editing-1"> <button className="px-4 py-2 bg-blue-500 text-white rounded-3xl hover:bg-blue-600">Contact Us</button></a>

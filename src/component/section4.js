@@ -18,8 +18,8 @@ export default function Section4() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center" >
-      <div className="sec4 h-96 md:rounded-t-full w-full md:rounded-b-full flex items-center justify-center bg-white">
+    <div className="flex flex-col items-center justify-center " >
+      <div className="sec4 h-96 md:rounded-t-full  w-full md:rounded-b-full flex items-center justify-center bg-white">
         <p className="text-white md:text-7xl  sm:text:4xl w-1/2 text-center" style={{ fontFamily: 'Instagram Sans Bold' }} >Simply Carry Out These Steps.</p>
       </div>
 
@@ -101,7 +101,7 @@ export default function Section4() {
         {/* ... */}
 
       {/* </div>  */}
-   <div className=" body-font my-4" >
+   <div className=" body-font my-4 mr-2" >
     <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 20 }}

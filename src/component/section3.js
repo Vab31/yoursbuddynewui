@@ -159,6 +159,9 @@ import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import digiicon from './rocket.gif'
 import '../font/style.css'
+import icon1 from './icon1.png'
+import icon2 from './icon2.png'
+import icon3 from './icon3.png'
 
 
 
@@ -194,9 +197,12 @@ export default function Section3() {
 <div className="text-left lg:m-32 text-sm ">KNOW MORE ABOUT US
    <div className="border-t border-gray-300 md:w-96 w-56 mb-6"></div>
 
-         <p className='text-left text-3xl'  ><img className='inline-flex bg-sky-500 rounded-full p-3 mr-3  border-sky-300 border-spacing-5' src={arrow} />With YoursBuddy profetional touch you can see drastic change in your:</p>
+         <p className='text-left text-3xl' style={{ fontFamily: 'Instagram Sans Bold' }}  ><img className='inline-flex bg-sky-500 rounded-full p-3 mr-3  border-sky-300 border-spacing-5' src={arrow} /> Enhance your content your video editing 
+         </p>
+         {/* <p className='text-left text-3xl'  ><img className='inline-flex bg-sky-500 rounded-full p-3 mr-3  border-sky-300 border-spacing-5' src={arrow} />With YoursBuddy profetional touch you can see drastic change in your:</p> */}
         {/* <p className='md:ml-16 text-5xl font-serif font-bold text-blue-300 '  
          >Video Quality, Audience Retention, Wider Reach</p> */}
+         <p className='md:ml-24 text-xl ' style={{ fontFamily: 'Instagram Sans Medium' }}>With YoursBuddy professional touch you can see drastic <br/> change  in your content</p>
         <div className='flex flex-col items-center md:flex-row mt-4 mb-4 overflow-hidden'>
         <div className='h-96 w-full md:w-1/2  flex items-center justify-center rounded' style={{
   background: 'radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 38%, rgba(0,212,255,1) 79%)',
@@ -228,7 +234,9 @@ export default function Section3() {
     fontWeight: 'bold',
   }}
 >
-  <Typography variant="h6">Content Quality</Typography>
+ <Typography variant="h6" style={{ display: 'inline' }}>
+  <img src={icon2} className='h-8 w-8 mr-2' style={{ display: 'inline-block', verticalAlign: 'middle' }} /> Content Quality
+</Typography>
 </AccordionSummary>
 <AccordionDetails className='bg-slate-500 font-sans text-slate-200 rounded-xl'>
   <Typography variant="body1">
@@ -257,7 +265,9 @@ export default function Section3() {
     fontWeight: 'bold',
   }}
 >
-  <Typography variant="h6">Audience Retention</Typography>
+<Typography variant="h6" style={{ display: 'inline' }}>
+  <img src={icon1} className='h-8 w-8 mr-2' style={{ display: 'inline-block', verticalAlign: 'middle' }} /> Audience Retention
+</Typography>
 </AccordionSummary>
 <AccordionDetails className='bg-slate-500 font-sans text-slate-200 rounded-xl'>
   <Typography variant="body1">
@@ -287,7 +297,9 @@ export default function Section3() {
     fontWeight: 'bold',
   }}
 >
-  <Typography variant="h6">Wider Reach</Typography>
+  <Typography variant="h6" style={{ display: 'inline' }}>
+  <img src={icon3} className='h-8 w-8 mr-2' style={{ display: 'inline-block', verticalAlign: 'middle' }} /> Wider Reach
+</Typography>
 </AccordionSummary>
 <AccordionDetails className='bg-slate-500 font-sans text-slate-200 rounded-xl'>
   <Typography variant="body1">
@@ -310,7 +322,7 @@ export default function Section3() {
    <div className="border-t border-gray-300 md:w-96 w-80 md mb-6 overflow-hidden"></div>
 
          <p className='text-left text-4xl  font-bold ' style={{ fontFamily: 'Instagram Sans Bold' }}><img className='inline-flex bg-sky-500 rounded-full p-3 mr-3  border-sky-300 border-spacing-5' src="https://uploads-ssl.webflow.com/63999f8df0234ff7719669bd/63a2db4495ab8cecb5afc946_tablet_FILL0_wght400_GRAD0_opsz48%201%20(1).svg" />Experience the power of
-         <p className='md:ml-24 -mt-3  text-5xl  font-bold text-blue-300 ' style={{ fontFamily: 'Instagram Sans Bold' }} 
+         <p className='md:ml-24 md:-mt-3  text-5xl  font-bold text-blue-300 ' style={{ fontFamily: 'Instagram Sans Bold' }} 
          >Video Editing.</p>
         
          </p>
@@ -345,11 +357,14 @@ export default function Section3() {
   </div>
 
 
-     
+{/*      
       <p className='md:ml-16 mt-5 text-5xl text-left font-bold text-blue-300 '  style={{ fontFamily: 'Instagram Sans Bold' }}
-         >Colour Grading</p>
+         >Colour Grading</p> */}
       <div className='flex flex-col items-center md:flex-row mt-3 mb-3'>
   <div className='md:w-1/2 ml-3' >
+  
+  <p className='md:ml-16 mt-5 text-5xl text-left font-bold text-blue-300 '  style={{ fontFamily: 'Instagram Sans Bold' }}
+         >Colour Grading</p>
     <p className='md:m-8 md:ml-14 text-xl md:w-96 text-slate-400' style={{ fontFamily: 'Instagram Sans Regular' }}>
     Colour grading can make your video look more professional, cinematic, or artistic. 
     It can also help you convey your message, emotion, or story more effectively. 
@@ -365,8 +380,8 @@ export default function Section3() {
 </div>
 
 
-<p className='md:mr-44 mt-5 text-5xl text-right font-bold text-blue-300 '  style={{ fontFamily: 'Instagram Sans Bold' }}
-         >Motion Graphics</p>
+{/* <p className='md:mr-44 mt-5 text-5xl text-right font-bold text-blue-300 '  style={{ fontFamily: 'Instagram Sans Bold' }}
+         >Motion Graphics</p> */}
         <div className='flex flex-col items-center md:flex-row mt-3 mb-3'>
         <div className='h-96 w-full md:w-1/2 flex items-center rounded justify-center ' style={{
   background: 'radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 38%, rgba(0,212,255,1) 79%)',
@@ -376,6 +391,8 @@ export default function Section3() {
 </div>
      
         <div className='md:w-1/2 md:ml-28 ' style={{ fontFamily: 'Instagram Sans Regular' }}>
+        <p className='md:mr-48 mt-5 text-5xl text-right font-bold text-blue-300 '  style={{ fontFamily: 'Instagram Sans Bold' }}
+         >Motion Graphics</p>
         <p className='m-3 text-xl text-slate-400 md:w-96' style={{ fontFamily: 'Instagram Sans Regular' }}>
         Motion graphics are animated graphics that can add life and movement to your content. 
         Motion graphics can help you create eye-catching and dynamic content that can attract and retain your 
@@ -387,10 +404,12 @@ export default function Section3() {
   </div>
 
 
-  <p className='md:ml-16 text-5xl text-left mt-5 font-bold text-blue-300 '  style={{ fontFamily: 'Instagram Sans Bold' }}
-         >Sound Design</p>
+  {/* <p className='md:ml-16 text-5xl text-left mt-5 font-bold text-blue-300 '  style={{ fontFamily: 'Instagram Sans Bold' }}
+         >Sound Design</p> */}
       <div className='flex flex-col items-center md:flex-row mt-3 mb-3'>
   <div className='md:w-1/2 ml-3' >
+  <p className='md:ml-16 text-5xl text-left mt-5 font-bold text-blue-300 '  style={{ fontFamily: 'Instagram Sans Bold' }}
+         >Sound Design</p>
     <p className='md:m-8 md:ml-14 text-xl font-serif md:w-96 text-slate-400' style={{ fontFamily: 'Instagram Sans Regular' }}>
     Sound designing is not just adding sound effects, music, and dialogue to your video content.
      It is an art and a science that can make your videos more realistic, immersive, and impactful.

@@ -3,51 +3,51 @@ import Carousel from 'react-bootstrap/Carousel';
 function Review() {
     const list=[
         {
-          name:'fortunatenikhil',
-          testimonial:' Working with the team has been a highly satisfying experience. Their skill set and understanding of deadlines are commendable. Their ongoing support during the editing process, coupled with their consistent ability to deliver high-quality editing work, make them a strong contender for video editing needs.',
+          name:'Swapnil',
+          testimonial:' I had the privilege of working with Yoursbuddy as my video editor, and I couldn\'t be more pleased with the results. From the very start, Lokesh displayed a deep understanding of my project\'s goals and objectives.',
           image:'https://media.licdn.com/dms/image/C5603AQFP4mGl8tTjSQ/profile-displayphoto-shrink_200_200/0/1629890182867?e=1697673600&v=beta&t=Q1Kf6F4w8JG5KaZ7srvbkDoeW6RIz_s-Uy6d4shiYC4',
           profession:'Building Multiple businesses',
           follower:'95k+ followers'
         },
         {
-          name:'Tarunmakhija01',
-          testimonial:'I\'ve had the pleasure of working with a dedicated team that has truly elevated my projects. Their expertise and punctuality demonstrate a high level of professionalism. Their unwavering support during the editing process and their ability to consistently deliver work that exceeds expectations make them my top recommendation for video editing services.',
+          name:'Rishi',
+          testimonial:'What truly set Yoursbuddy apart was their dedication and commitment to the project. They consistently met deadlines and demonstrated a remarkable level of professionalism throughout our collaboration. Whenever I had feedback or requests, Yoursbuddy was not only receptive but also proactive in suggesting improvements and alternatives.',
           image:'https://media.licdn.com/dms/image/D5603AQG-oo_hGRigHQ/profile-displayphoto-shrink_200_200/0/1677767886365?e=1697673600&v=beta&t=gPdpwxT4dpTLyCW10kVUy4o5zAIeof_RsQpl9v0i0pY',
           profession:'Scaled bigmouth to 2.25 Cr',
           follower:'Trained 16k+ People'
         },
-        {
-          name:'rishi.nagar95',
-          testimonial:'Working alongside Lokesh and Kshitij has been an absolute delight. Their skill set is truly impressive, and they understand the importance of meeting deadlines. What I find truly remarkable is their unwavering support during the editing journey, coupled with their ability to consistently exceed expectations in the quality of their editing work. I wholeheartedly vouch for Lokesh and Kshitij for all video editing needs.'
-          ,
-          image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq_NIGXRjt9jpT3qoeiU2Q-lPKfVCVYubDDiI6IgUeFN75hZ1N1WJbXDg2A2YPi7Ls&usqp=CAU',
-          profession:'Youngrest entrepreneur backed by iit bombay',
-          follower:'building @fitnastic.health',
-        },
-        {
-          name:'Fireflydo',
-          testimonial:'It has been an absolute delight collaborating with a team of dedicated professionals who have undeniably taken my projects to new heights. Their mastery and punctuality not only showcase a remarkable level of professionalism but also contribute to the overall excellence of their work. The unwavering assistance they provide throughout the editing process, coupled with their consistent knack for delivering results that go above and beyond, solidify their position as my ultimate choice for video editing services.  '
-          ,
-          image:'https://yt3.googleusercontent.com/ytc/AOPolaTkMADsFr_Cb-sYOPOY8EspCQQo9DOdNEfRf4zvhw=s176-c-k-c0x00ffffff-no-rj',
-          profession:'Vlogger',
-          follower:'25k+ followers'
-        },
-        {
-          name:'Bhavnaharchandrai',
-          testimonial:'Collaborating with this professional team has been a pleasure from the start. Their skillful approach and adherence to deadlines have been outstanding. Their unwavering support during the editing process and their ability to consistently surpass expectations in their editing work make them a solid choice for video editing services.'
-          ,
-          image:'https://img.analisa.io/instagram/profpic/274085362_233450478907069_2219435585382559075_n.jpg',
-          profession:'Fitness Trainer',
-          follower:'90k+ followers'
-        },
-        {
-          name:'ptrajeshh',
-          testimonial:'Working with the team has been a highly satisfying experience. Their skill set and understanding of deadlines are commendable. Their ongoing support during the editing process, coupled with their consistent ability to deliver high-quality editing work, make them a strong contender for video editing needs. '
-         ,
-          image:'https://yt3.googleusercontent.com/oBnqMO7VT-9viY9r6XLaA5f2POJSBxBB-OEJPItPdHOFszX2pB5lUl0TB6XfXpowpWkTXSu-Xg=s176-c-k-c0x00ffffff-no-rj',
-          profession:'20+ yrs of experience in Fitness',
-          follower:'300k+ followers'
-        },
+        // {
+        //   name:'rishi.nagar95',
+        //   testimonial:'Working alongside Lokesh and Kshitij has been an absolute delight. Their skill set is truly impressive, and they understand the importance of meeting deadlines. What I find truly remarkable is their unwavering support during the editing journey, coupled with their ability to consistently exceed expectations in the quality of their editing work. I wholeheartedly vouch for Lokesh and Kshitij for all video editing needs.'
+        //   ,
+        //   image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq_NIGXRjt9jpT3qoeiU2Q-lPKfVCVYubDDiI6IgUeFN75hZ1N1WJbXDg2A2YPi7Ls&usqp=CAU',
+        //   profession:'Youngrest entrepreneur backed by iit bombay',
+        //   follower:'building @fitnastic.health',
+        // },
+        // {
+        //   name:'Fireflydo',
+        //   testimonial:'It has been an absolute delight collaborating with a team of dedicated professionals who have undeniably taken my projects to new heights. Their mastery and punctuality not only showcase a remarkable level of professionalism but also contribute to the overall excellence of their work. The unwavering assistance they provide throughout the editing process, coupled with their consistent knack for delivering results that go above and beyond, solidify their position as my ultimate choice for video editing services.  '
+        //   ,
+        //   image:'https://yt3.googleusercontent.com/ytc/AOPolaTkMADsFr_Cb-sYOPOY8EspCQQo9DOdNEfRf4zvhw=s176-c-k-c0x00ffffff-no-rj',
+        //   profession:'Vlogger',
+        //   follower:'25k+ followers'
+        // },
+        // {
+        //   name:'Bhavnaharchandrai',
+        //   testimonial:'Collaborating with this professional team has been a pleasure from the start. Their skillful approach and adherence to deadlines have been outstanding. Their unwavering support during the editing process and their ability to consistently surpass expectations in their editing work make them a solid choice for video editing services.'
+        //   ,
+        //   image:'https://img.analisa.io/instagram/profpic/274085362_233450478907069_2219435585382559075_n.jpg',
+        //   profession:'Fitness Trainer',
+        //   follower:'90k+ followers'
+        // },
+        // {
+        //   name:'ptrajeshh',
+        //   testimonial:'Working with the team has been a highly satisfying experience. Their skill set and understanding of deadlines are commendable. Their ongoing support during the editing process, coupled with their consistent ability to deliver high-quality editing work, make them a strong contender for video editing needs. '
+        //  ,
+        //   image:'https://yt3.googleusercontent.com/oBnqMO7VT-9viY9r6XLaA5f2POJSBxBB-OEJPItPdHOFszX2pB5lUl0TB6XfXpowpWkTXSu-Xg=s176-c-k-c0x00ffffff-no-rj',
+        //   profession:'20+ yrs of experience in Fitness',
+        //   follower:'300k+ followers'
+        // },
         
         
         
@@ -67,8 +67,8 @@ function Review() {
          {review.testimonial}
       </p>
       <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
-      {/* <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD</h2>
-      <p className="text-gray-500">Senior Product Designer</p> */}
+  <h2 className="text-slate-200 font-medium title-font tracking-wider text-xl" style={{ fontFamily: 'Instagram Sans Regular' }}>{review.name}</h2> 
+      {/* <p className="text-gray-500">Senior Product Designer</p>  */}
     </div>
   </div>
 </section>
